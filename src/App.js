@@ -1,14 +1,8 @@
 import styled from 'styled-components';
-import BasicTitle from './components/BasicTitle';
-import { DefaultButton } from './components/Buttons';
+import ComplexTitle from './components/ComplexTitle';
 
 function App() {
-   return (
-      <div>
-         <BasicTitle>stiled components</BasicTitle>
-         <DefaultButton>click me</DefaultButton>
-      </div>
-   );
+   return <ComplexTitle title="more complex titulazoooo!!" />;
 }
 
 export default App;
