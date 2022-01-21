@@ -1,3 +1,6 @@
+import { createGlobalStyle } from 'styled-components';
+
+const GlobalStyle = createGlobalStyle`
 :root {
    --primary: #645cff;
    --white: #fff;
@@ -12,7 +15,6 @@ body {
    -moz-osx-font-smoothing: grayscale;
    background: rgb(185, 255, 207);
 }
+`;
 
-.prueba {
-   color: rgb(97, 100, 98);
-}
+export default GlobalStyle;
