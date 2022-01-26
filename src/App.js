@@ -1,12 +1,14 @@
 import styled from 'styled-components';
-import Card from './components/Card';
-import GlobalStyle from './global-styles';
+import { HipsterButton } from './components/Buttons';
 
 function App() {
    return (
       <div style={{ padding: '2rem' }}>
-         <GlobalStyle />
-         <Card />
+         <HipsterButton>holi holi</HipsterButton>
+         <HipsterButton as="a" href="https://www.johnsmilga.com/">
+            holi holi
+         </HipsterButton>
+         <HipsterButton>holi holi</HipsterButton>
       </div>
    );
 }
